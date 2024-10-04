@@ -1,0 +1,398 @@
+In non-preemptive scheduling, which condition is false?  
+a) Once a process starts, it runs to completion.
+b) The CPU can be taken away from a running process.
+c) It is simpler to implement than preemptive scheduling.
+d) It can lead to the convoy effect, where short processes are delayed by longer ones.
+Ans => b
+
+A process in an operating system goes through several states. When a process is waiting for I/O to complete, it is in which state?
+a) Running
+b) Ready
+c) Waiting
+d) Terminated
+Ans => c
+
+In First-Come, First-Served (FCFS) scheduling, which of the following is true?
+a) Processes with the shortest burst time are scheduled first.
+b) A process is completed before the next one is scheduled.
+c) The CPU is assigned to the process with the highest priority.
+d) It allows process interruption to accommodate higher priority tasks
+Ans => b
+
+In pre-emptive scheduling, a process can be removed from the CPU before completing its execution. What is this removal called?  
+a) Swapping
+b) Termination
+c) Context switching
+d) Interrupting
+Ans => c
+
+In Shortest Job First (SJF) scheduling, what is the potential disadvantage?
+a) High overhead for maintaining process information
+b) Starvation of longer processes
+c) Processes are completed too quickly
+d) Increased context switching
+Ans => b
+
+Which of the following is an example of non-preemptive scheduling?
+a) Shortest Job First (SJF)
+b) Round Robin
+c) First Come, First Served (FCFS)
+d) Priority Scheduling
+Ans => c
+A process control block (PCB) contains information about a process's:  
+a) Hardware resources
+b) Priority and scheduling information
+c) Operating system logs
+d) User preferences
+Ans => b
+
+Which of the following is not a type of operating system?
+a) Time-sharing
+b) Batch
+c) Thread-based
+d) Real-time
+Ans => c
+The state transition diagram for a process does not include which of the following states?
+a) Running
+b) Terminated
+c) Waiting
+d) Paging
+Ans => d
+In a distributed operating system, which of the following is a key feature?
+a) Centralized control of resources
+b) Communication and synchronization between multiple machines
+c) A single user interacting with the OS
+d) Real-time task completion
+Ans => b
+The process control block (PCB) is loaded into memory:  
+a) After the process has terminated
+b) When the process enters the ready state
+c) When the process is created
+d) When the system is restarted
+Ans => c
+
+Which of the following best describes a network operating system?
+a) It manages all communication over a network
+b) It ensures real-time tasks are completed
+c) It allows multiple computers to function as a unified system
+d) It supports multi-threading
+Ans => a
+
+Which of the following operating systems is designed to respond quickly to input and is used for real-time applications?
+a) Batch Operating System
+b) Real-Time Operating System
+c) Time-Sharing Operating System
+d) Network Operating System
+Ans => b
+
+In a timeshare operating system, when the time slot assigned to a process is completed, the process switches from the current state to?
+a) Suspended state
+b) Terminated state
+c) Ready state
+d) Blocked state
+Ans => c
+
+What is Scheduling?
+a) allowing a job to use the processor
+b) making proper use of processor
+c) all of the mentioned
+d) none of the mentioned
+Ans => a
+
+What are the types of operating systems?
+a) Zone based Operating system
+b) Level based Operating system
+c) Network Operating system
+d) All of the mentioned
+Ans => c
+
+Network operating system runs on ___________
+a) every system in the network
+b) server
+c) both server and every system in the network
+d) none of the mentioned
+Ans => b
+
+In real time operating system ____________
+a) process scheduling can be done only once
+b) all processes have the same priority
+c) kernel is not required
+d) a task must be serviced by its deadline period
+Ans => d
+
+A deadlock avoidance algorithm dynamically examines the __________ to ensure that a circular wait condition can never exist.
+a) operating system
+b) resources
+c) system storage state
+d) resource allocation state
+Ans => d
+
+Swapping _______ be done when a process has pending I/O, or has to execute I/O operations only into operating system buffers.
+a) must never
+b) maybe
+c) can
+d) must
+Ans => a
+For an effective operating system, when to check for deadlock?
+a) every time a resource request is made at fixed time intervals
+b) at fixed time intervals
+c) every time a resource request is made
+d) none of the mentioned
+Ans => a
+
+When a process is in a “Blocked” state waiting for some I/O service. When the service is completed, it goes to the __________
+a) Terminated state
+b) Suspended state
+c) Running state
+d) Ready state
+Ans => d
+Which one of the following is not true?
+a) kernel remains in the memory during the entire computer session
+b) kernel is made of various modules which can not be loaded in running operating system
+c) kernel is the first part of the operating system to load into memory during booting
+d) kernel is the program that constitutes the central core of the operating system
+Ans => b
+
+Which process can be affected by other processes executing in the system?
+a) cooperating process
+b) child process
+c) parent process
+d) init process
+Ans => a
+
+When several processes access the same data concurrently and the outcome of the execution depends on the particular order in which the access takes place is called ________
+a) dynamic condition
+b) race condition
+c) essential condition
+d) critical condition
+Ans => b
+
+If a process is executing in its critical section, then no other processes can be executing in their critical section. What is this condition called?
+a) mutual exclusion
+b) critical exclusion
+c) synchronous exclusion
+d) asynchronous exclusion
+Ans => a
+
+Which one of the following is a synchronization tool?
+a) thread
+b) pipe
+c) semaphore
+d) socket
+Ans => c
+
+Mutual exclusion can be provided by the __________
+a) mutex locks
+b) binary semaphores
+c) both mutex locks and binary semaphores
+d) none of the mentioned
+Ans => c
+
+A monitor is a module that encapsulates __________
+a) shared data structures
+b) procedures that operate on shared data structure
+c) synchronization between concurrent procedure invocation
+d) all of the mentioned
+Ans => d
+
+To enable a process to wait within the monitor __________
+a) a condition variable must be declared as condition
+b) condition variables must be used as boolean objects
+c) semaphore must be used
+d) all of the mentioned
+Ans => a 
+
+What is a reusable resource?
+a) that can be used by one process at a time and is not depleted by that use
+b) that can be used by more than one process at a time
+c) that can be shared between various threads
+d) none of the mentioned
+Ans => a
+
+A system is in the safe state if ____________
+a) the system can allocate resources to each process in some order and still avoid a deadlock
+b) there exist a safe sequence
+c) all of the mentioned
+d) none of the mentioned
+Ans => c
+
+The circular wait condition can be prevented by ____________
+a) defining a linear ordering of resource types
+b) using thread
+c) using pipes
+d) all of the mentioned
+Ans => a
+
+Which one of the following is the deadlock avoidance algorithm?
+a) banker’s algorithm
+b) round-robin algorithm
+c) elevator algorithm
+d) karn’s algorithm
+Ans => a
+
+What is the drawback of banker’s algorithm?
+a) in advance processes rarely know how much resource they will need
+b) the number of processes changes as time progresses
+c) resource once available can disappear
+d) all of the mentioned
+Ans => d
+
+A problem encountered in multitasking when a process is perpetually denied necessary resources is called ____________
+a) deadlock
+b) starvation
+c) inversion
+d) aging
+Ans => b
+
+Which one of the following is a visual ( mathematical ) way to determine the deadlock occurrence?
+a) resource allocation graph
+b) starvation graph
+c) inversion graph
+d) none of the mentioned
+Ans => a
+
+If no cycle exists in the resource allocation graph ____________
+a) then the system will not be in a safe state
+b) then the system will be in a safe state
+c) all of the mentioned
+d) none of the mentioned
+Ans => b
+
+For Mutual exclusion to prevail in the system ____________
+a) at least one resource must be held in a non sharable mode
+b) the processor must be a uniprocessor rather than a multiprocessor
+c) there must be at least one resource in a sharable mode
+d) all of the mentioned
+Ans => d
+
+The disadvantage of a process being allocated all its resources before beginning its execution is ____________
+a) Low CPU utilization
+b) Low resource utilization
+c) Very high resource utilization
+d) None of the mentioned
+Ans => b
+
+To avoid deadlock ____________
+a) there must be a fixed number of resources to allocate
+b) resource allocation must be done only once
+c) all deadlocked processes must be aborted
+d) inversion technique can be used
+Ans => a
+
+Each request requires that the system consider the _____________ to decide whether the current request can be satisfied or must wait to avoid a future possible deadlock.
+a) resources currently available
+b) processes that have previously been in the system
+c) resources currently allocated to each process
+d) future requests and releases of each process
+Ans => a
+
+The Banker’s algorithm is _____________ than the resource allocation graph algorithm.
+a) less efficient
+b) more efficient
+c) equal
+d) none of the mentioned
+Ans => a
+
+The number of resources requested by a process ____________
+a) must always be less than the total number of resources available in the system
+b) must always be equal to the total number of resources available in the system
+c) must not exceed the total number of resources available in the system
+d) must exceed the total number of resources available in the system
+Ans => c
+
+The request and release of resources are ___________
+a) command line statements
+b) interrupts
+c) system calls
+d) special programs
+Ans => c
+
+What are Multithreaded programs?
+a) lesser prone to deadlocks
+b) more prone to deadlocks
+c) not at all prone to deadlocks
+d) none of the mentioned
+Ans => b
+
+For a Hold and wait condition to prevail ____________
+a) A process must be not be holding a resource, but waiting for one to be freed, and then request to acquire it
+b) A process must be holding at least one resource and waiting to acquire additional resources that are being held by other processes
+c) A process must hold at least one resource and not be waiting to acquire additional resources
+d) None of the mentioned
+Ans => b
+
+Concurrent access to shared data may result in ____________
+a) data consistency
+b) data insecurity
+c) data inconsistency
+d) none of the mentioned
+Ans => c
+The segment of code in which the process may change common variables, update tables, write into files is known as ____________
+a) program
+b) critical section
+c) non – critical section
+d) synchronizing
+Ans => b
+
+Mutual exclusion implies that ____________
+a) if a process is executing in its critical section, then no other process must be executing in their critical sections
+b) if a process is executing in its critical section, then other processes must be executing in their critical sections
+c) if a process is executing in its critical section, then all the resources of the system must be blocked until it finishes execution
+d) none of the mentioned
+Ans => a
+
+What are the two atomic operations permissible on semaphores?
+a) wait and signal
+b) stop and wait
+c) hold and signal
+d) none of the mentioned
+Ans => a
+
+If the semaphore value is negative ____________
+a) its magnitude is the number of processes waiting on that semaphore
+b) it is invalid
+c) no operation can be further performed on it until the signal operation is performed on it
+d) none of the mentioned
+Ans => a
+
+The code that changes the value of the semaphore is ____________
+a) remainder section code
+b) non – critical section code
+c) critical section code
+d) none of the mentioned
+Ans => c
+
+What will happen if a non-recursive mutex is locked more than once?
+a) Starvation
+b) Deadlock
+c) Aging
+d) Signaling
+Ans => b
+
+At a particular time of computation the value of a counting semaphore is 7.Then 20 P operations and 15 V operations were completed on this semaphore. The resulting value of the semaphore is?
+a) 42
+b) 2
+c) 7
+d) 12
+Ans => b
+
+A Round Robin scheduling algorithm with a time quantum of 2 ms is used for three processes with burst times of 6 ms, 4 ms, and 8 ms. What is the total waiting time?
+A) 8 ms
+B) 6 ms
+C) 10 ms
+D) 9 ms
+Ans => d
+
+Which of the following page replacement algorithms can suffer from Belady’s Anomaly?
+A) FIFO
+B) LRU
+C) Optimal
+D) Clock
+Ans => a
+
+If two processes have burst times of 7 ms and 2 ms, respectively, what is the average waiting time using FCFS scheduling?
+A) 5 ms
+B) 4 ms
+C) 3 ms
+D) 6 ms
+Ans => a
