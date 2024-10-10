@@ -396,3 +396,147 @@ B) 4 ms
 C) 3 ms
 D) 6 ms
 Ans => a
+.............................................................................
+
+What is the primary purpose of virtual memory?
+
+a) To increase the physical memory size
+b) To provide the illusion of a larger memory space than available
+c) To replace main memory with secondary storage
+d) To avoid memory fragmentation
+Which of the following components is responsible for translating virtual addresses into physical addresses?
+
+a) CPU
+b) Memory Management Unit (MMU)
+c) Disk Scheduler
+d) Cache
+What is a page fault?
+
+a) When a page is already in memory
+b) When a requested page is not found in the memory
+c) When the CPU generates an error
+Here are 20 multiple-choice questions (MCQs) and 20 true/false questions on Virtual Memory with answers:
+
+Multiple-Choice Questions (MCQs)
+What is the primary purpose of virtual memory?
+
+a) To increase the physical memory size
+b) To provide the illusion of a larger memory space than available
+c) To replace main memory with secondary storage
+d) To avoid memory fragmentation
+Which of the following components is responsible for translating virtual addresses into physical addresses?
+
+a) CPU
+b) Memory Management Unit (MMU)
+c) Disk Scheduler
+d) Cache
+What is a page fault?
+
+a) When a page is already in memory
+b) When a requested page is not found in the memory
+c) When the CPU generates an error
+d) When a segmentation fault occurs
+Which of the following is NOT a benefit of virtual memory?
+
+a) Allows larger programs to run
+b) Enables more efficient use of memory
+c) Provides isolation between processes
+d) Reduces the need for cache memory
+What happens during demand paging?
+
+a) All pages are loaded into memory at once
+b) Pages are loaded into memory only when needed
+c) Pages are swapped based on the priority of processes
+d) Pages are deleted from memory when not in use
+What is thrashing in the context of virtual memory?
+
+a) Efficient use of cache memory
+b) Excessive swapping of pages between memory and disk
+c) Large fragmentation of memory
+d) When the memory size exceeds disk size
+Which of the following is a common page replacement algorithm?
+
+a) Best-fit
+b) Least Recently Used (LRU)
+c) First-Fit
+d) Optimal Fit
+What does the “working set” in virtual memory refer to?
+
+a) All pages of a process
+b) A set of pages a process is actively using
+c) The total memory used by all processes
+d) Pages that need to be swapped to disk
+Which of the following is NOT a page replacement algorithm?
+
+a) FIFO
+b) Round Robin
+c) LRU
+d) Optimal
+In which situation does a "segmentation fault" occur?
+
+a) When a page is not found in memory
+b) When a process tries to access restricted memory
+c) When a process tries to access an invalid memory segment
+d) When the CPU can't find the required page in the cache
+Which of the following describes a swap space?
+
+a) A dedicated space for virtual memory
+b) A portion of the disk used to temporarily hold pages
+c) A region in the cache
+d) A backup of the main memory
+What is a key characteristic of segmented paging?
+
+a) Each page is divided into segments
+b) Pages and segments are unrelated
+c) Segments are divided into pages
+d) Segments are loaded one after another
+In a system with virtual memory, the effective memory access time is determined by:
+
+a) The size of the page
+b) The disk speed
+c) The hit ratio in the TLB (Translation Lookaside Buffer)
+d) The processor speed
+Which of the following is a disadvantage of virtual memory?
+
+a) Efficient memory usage
+b) Increased page faults
+c) Isolation between processes
+d) Allows large programs to run
+What is the purpose of the Translation Lookaside Buffer (TLB)?
+
+a) To store data temporarily
+b) To cache recent address translations
+c) To store page faults
+d) To map physical addresses
+What happens when the page table entry for a virtual page is invalid?
+
+a) The page is immediately loaded into memory
+b) A page fault occurs
+c) The CPU halts
+d) The page is removed from disk
+What does "paging" prevent?
+
+a) Fragmentation
+b) Processes interfering with each other’s memory
+c) Cache misses
+d) Process swapping
+Which memory management scheme loads only necessary parts of a program into memory?
+
+a) Fixed Partitioning
+b) Demand Paging
+c) Contiguous Allocation
+d) Buddy System
+In virtual memory, which component is responsible for choosing the victim page for replacement?
+
+a) CPU
+b) Page replacement algorithm
+c) Cache controller
+d) I/O controller
+What is the optimal page replacement policy?
+
+a) FIFO
+b) LRU
+c) Clock Algorithm
+d) Replace the page that will not be used for the longest time in the future
+
+..........................................................................................
